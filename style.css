@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {font-family: 'Montserrat', sans-serif  !important; }
+.black{background-color: black;}
+
+.navbar{background-color: rgb(0, 0, 0) !important;
+     }
+.nav-link{color: rgb(247, 252, 255) !important;
+
+}
+a.nav-link:hover{
+    color: cyan !important;
+    box-shadow:  0 0 5px #33ffff,
+                0 0 5px #66ffff;
+    border-radius: 5px;            
+}
+.navbar-brand{
+    color: rgb(241, 242, 243)  !important;
+}
+.navbar-toggler-icon{
+
+    background-color: rgb(15, 114, 114) !important;
+}
+
+footer{
+    background-color: rgb(0, 0, 0) !important;
+}
+.text-uppercase {color: rgb(241, 242, 243)  !important;}
+h6:hover{color: cyan !important;}
+p.text-center{color: gray !important;}
+.para{color: gray !important;}
+.list-inline-item{color: gray !important;}
+p>a{color: gray !important;}
+/* p>i{color: gray !important;} */
+h6~p{color: gray !important;}
+/* .logo{
+    color: rgb(72, 170, 226)  !important;
+} */
+/* .nav.navbar-nav.navbar-right li a {
+    color: blue;
+} */
+/* .img_about{width:100% ;
+height:20% !important;} */
+/* border: 3px dotted #0088dd; */
+/* .paragraph:hover{ color: cyan !important;
+    box-shadow: 0 5px 0 0  #66ffff;
+    border-radius: 5px; }
+             */
+     .paragraph   { color: white !important;}     
+             .heading{color: white;
+                width: 15%;
+            }
+            .white{color: white;
+            }
+ .heading:hover{ color: cyan;
+     /* box-shadow: 0 3px 0 0  #66ffff; */
+     
+    }          
+    .carousel {
+        max-height: 500px;
+        overflow: hidden;
+      
+        
+      } 
+      .cyan{color: #33ffff;} 
+      /* .item img {
+        width: 100%;
+        height: auto;
+      } */
+      /* h1 { */
+  /* Extra small devices (phones, less than 768px) */
+  /* font-size: 40px; */
+
+  /* Small devices (tablets, 768px and up) */
+  /* @media (min-width: 768px) {
+    font-size: 12px;
+  } */
+
+  /* Medium devices (desktops, 992px and up) */
+  /* @media (min-width: 992px) {
+    font-size: 16px;
+  } */
+
+  /* Large devices (large desktops, 1200px and up) */
+  /* @media (min-width: 1339px) {
+    font-size: 40px;
+  }
+} */
+h1{
+@media only screen and (max-width: 768px){
+    font-size: 12px;
+}
+@media only screen and (min-width: 1253px){
+    font-size: 16px;
+}
+@media only screen and (max-width: 1339px){
+    font-size: 40px;
+}
+
+}
+input.transparent-input{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+div.border-bottom{
+    box-shadow: 0 1px 0 0  #66ffff;}
+/* .col-md-4{color: cyan !important;} */
+
+.black-contact{
+    background-image: url(kk.jpg);
+    background-size: cover;
+}
+/* hr{
+    background: cyan;
+} */
+.contact-form{
+    background: rgba(0, 255, 255, .3);
+    color: white;
+    /* margin-top: 90px; */
+    margin-bottom: 20px;
+    /* padding: 20px; */
+    /* padding-right: 40px; */
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* box-shadow: 0px 0px 10px 3px grey; */
+    /* box-shadow: 0px 0px 10px 3px  #66ffff; */
+    /* box-shadow: 0px 0px 3px 3px  #66ffff; */
+}
+.contact{color: cyan;
+font-weight: bolder;
+border-width: medium;}
+.contact-box{box-shadow: cyan;
+border-bottom: cyan;}
